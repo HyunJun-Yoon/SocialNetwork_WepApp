@@ -352,6 +352,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #294569;
 }
 .profile-grid .profile-top img {
   width: 250px;
@@ -367,6 +368,7 @@ img {
 .profile-grid .profile-about {
   grid-area: about;
   text-align: center;
+  background-color: #d0d7e0;
 }
 .profile-grid .profile-about .skills {
   display: flex;

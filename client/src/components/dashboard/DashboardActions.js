@@ -4,13 +4,25 @@ import { Link } from 'react-router-dom';
 const DashboardActions = () => {
   return (
     <div class='dash-buttons'>
-      <Link to='/edit-profile' class='btn' style={{ background: '#2f374e' }}>
+      <Link
+        to='/edit-profile'
+        className='btn'
+        style={{ background: '#2f374e' }}
+      >
         <i class='fas fa-user-circle text-primary'></i> Edit Profile
       </Link>
-      <Link to='/add-experience' class='btn' style={{ background: '#2f374e' }}>
+      <Link
+        to='/add-experience'
+        className='btn'
+        style={{ background: '#2f374e' }}
+      >
         <i class='fab fa-black-tie text-primary'></i> Add Experience
       </Link>
-      <Link to='/add-education' class='btn' style={{ background: '#2f374e' }}>
+      <Link
+        to='/add-education'
+        className='btn'
+        style={{ background: '#2f374e' }}
+      >
         <i class='fas fa-graduation-cap text-primary'></i> Add Education
       </Link>
     </div>
