@@ -17,7 +17,7 @@ const ProfileTop = ({
         class='profile-top bg-light p-2'
         style={{ border: '1px groove #ccc' }}
       >
-        <img class='round-img my-1' src={avatar} />
+        <img class='round-img my-1' src={avatar} alt='' />
 
         <h1 class='large'>{name}</h1>
         <p class='lead'>

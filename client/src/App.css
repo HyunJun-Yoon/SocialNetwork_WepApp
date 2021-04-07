@@ -368,7 +368,7 @@ img {
 .profile-grid .profile-about {
   grid-area: about;
   text-align: center;
-  background-color: #d0d7e0;
+  background-color: #a8b7c9;
 }
 .profile-grid .profile-about .skills {
   display: flex;
@@ -424,6 +424,10 @@ img {
 }
 .post img {
   width: 150px;
+}
+.post-date {
+  color: rgba(88, 86, 86, 0.5);
+  font-weight: bolder;
 }
 @media (max-width: 700px) {
   .hide-sm {
