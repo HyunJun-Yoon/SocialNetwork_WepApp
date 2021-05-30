@@ -1,4 +1,4 @@
-# MERNStackProject
+# Social Network Web App with MERN Stack
 Build and deploy a social network with Node.js, Express, React, Redux & MongoDB.
 
 Deloyed by Heroku
